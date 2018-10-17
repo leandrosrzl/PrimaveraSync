@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PrimaveraSync.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="dbPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\SERVER\X22\Base\SJOBS.FDB</Value>
+    </Setting>
+    <Setting Name="dbServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="idBanDefault" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="idCliWeb" Type="System.String" Scope="User">
+      <Value Profile="(Default)">7404</Value>
+    </Setting>
+    <Setting Name="idRepDefault" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="idTraDefault" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="imageLogo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Leandro\Pictures\5098.jpg</Value>
+    </Setting>
+    <Setting Name="spotTabPrice" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TAB13</Value>
+    </Setting>
+    <Setting Name="api" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://ws6.conb2c.com.br/_Sincronizacao/passarosEndPoint/?chave=ConB2cPrimavera&amp;acao=</Value>
+    </Setting>
+    <Setting Name="comrep" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="imagemSite" Type="System.String" Scope="User">
+      <Value Profile="(Default)">REFERENCIA</Value>
+    </Setting>
+    <Setting Name="divisao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="promoTabPrice" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TAB14</Value>
+    </Setting>
+    <Setting Name="retailTabPrice" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TAB11</Value>
+    </Setting>
+    <Setting Name="wholesaleTabPrice" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TAB12</Value>
+    </Setting>
+    <Setting Name="dbPathBDG" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\SERVER\X22\Base\BDG10.GDB</Value>
+    </Setting>
+    <Setting Name="debugMode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="syncTabSpot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">N</Value>
+    </Setting>
+    <Setting Name="syncTabPromo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">N</Value>
+    </Setting>
+    <Setting Name="syncTabWholesale" Type="System.String" Scope="User">
+      <Value Profile="(Default)">N</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="PrimaveraSync.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/>
+    </startup>
+    <userSettings>
+        <PrimaveraSync.Properties.Settings>
+            <setting name="dbPath" serializeAs="String">
+                <value>E:\SERVER\X22\Base\SJOBS.FDB</value>
+            </setting>
+            <setting name="dbServer" serializeAs="String">
+                <value>LOCALHOST</value>
+            </setting>
+            <setting name="idBanDefault" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="idCliWeb" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="idRepDefault" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="idTraDefault" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="imageLogo" serializeAs="String">
+                <value>C:\Users\Leandro\Pictures\5098.jpg</value>
+            </setting>
+            <setting name="tabPrice" serializeAs="String">
+                <value>TAB9</value>
+            </setting>
+            <setting name="api" serializeAs="String">
+                <value>http://conb2c.com.br/demos/conb2c/webservice/primavera_/?chave=ConB2cPrimavera&amp;acao=</value>
+            </setting>
+        </PrimaveraSync.Properties.Settings>
+    </userSettings>
+</configuration>
