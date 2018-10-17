@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PrimaveraSync.exe" version="2.0.0.0" publicKeyToken="3c1abbb3b264e795" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logoTeste.fw.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PrimaveraSync" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PrimaveraSync.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FirebirdSql.Data.FirebirdClient.dll" size="590336">
+      <assemblyIdentity name="FirebirdSql.Data.FirebirdClient" version="2.5.0.0" publicKeyToken="3750ABCC3150B00C" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7GvfTNCfpNtNQJM0bjHf7j9f8h3gYogSPXbUdHzNgpk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="662528">
+      <assemblyIdentity name="Newtonsoft.Json" version="11.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9Yw3T/yq5ONtdA2Q+/f+cNCrtzKM2a86CntwgD6ZS6Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PrimaveraSync.exe" size="59856">
+      <assemblyIdentity name="PrimaveraSync" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RzvSm72vzE1YWKNyX2p1Vr52xX1bGeqVfRrh4cSAto8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="logoTeste.fw.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y8MmaMOxkY1D0uATqlC1AwO41trwYi5gO+NvnA3oBN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PrimaveraSync.exe.config" size="2035">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DR4apxoKpo7SEfssfdXchc+/baIa0zUJ2+CVCZJgOhw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Leandro-PC\Leandro" issuerKeyHash="bb8d495734f96bb1710914602783bf0f021c7aef" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HTtthdLgJMBctMfkpL8B56bCGozPRw2pBPsSoHEU4qg=</DigestValue></Reference></SignedInfo><SignatureValue>GBIkh+rjsq6cPgRlKq0Ml65R2oOSUSR76kIbY88AMjH4C6isUNKChpqAXHWCMzYR6sD5BOdsWV/zWhNbRgsNwkrM1lw5izzFzMiEF6+MgH38GvUBLrcHgohzpl9+d0VzLfPo9s9QGfexpHCDOCGu+u15MSHU0RRdacOZFkZZ0D4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7jbo3Ddt1zeVmHZJA1kqOe+lDaYmNWL5fA5U9VSWxZwsukWPJIrsNgm/j5YXS/7c4rNgqXzvxKwty0eVG8RjHMUVYnI5N8+jrsRhfVJQTQMZbFFCq33NtXrc6JUWOOyKKmCXTep37BBEIeOO+3Ec7vWEgsBqbkbVatI02h/AGU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a8e21471a012fb04a90d47cf8c1ac2a6e701bfa4e4c7b45cc024e0d2856d3b1d" Description="" Url=""><as:assemblyIdentity name="PrimaveraSync.exe" version="2.0.0.0" publicKeyToken="3c1abbb3b264e795" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Leandro-PC\Leandro</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FJw6uMwP6Zu0dj1LPOlFh8BZOHitwSMhEbXnEXHF+fk=</DigestValue></Reference></SignedInfo><SignatureValue>fB02GsdbeRt+TYbXP6puPdl2Jy9C6WgCmb0Ccafsg/6ozKA4qZc0WHtofuQ3u4vf8lq66JppxhtG4cynNH0rCBvwqSvaRpcGtRNGkNSneQmcTfBNHsmv8Iygew1/J1xP4TtJPJe4eZENW1UZxW/1rrTVgz4YzVElETWWMZ+riZs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7jbo3Ddt1zeVmHZJA1kqOe+lDaYmNWL5fA5U9VSWxZwsukWPJIrsNgm/j5YXS/7c4rNgqXzvxKwty0eVG8RjHMUVYnI5N8+jrsRhfVJQTQMZbFFCq33NtXrc6JUWOOyKKmCXTep37BBEIeOO+3Ec7vWEgsBqbkbVatI02h/AGU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQQo3MgAZQrbpDoBI5hINKTTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQATABlAGEAbgBkAHIAbwAtAFAAQwBcAEwAZQBhAG4AZAByAG8wHhcNMTgwNjI5MDA0NTU1WhcNMTkwNjI5MDY0NTU1WjAvMS0wKwYDVQQDHiQATABlAGEAbgBkAHIAbwAtAFAAQwBcAEwAZQBhAG4AZAByAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO426Nw3bdc3lZh2SQNZKjnvpQ2mJjVi+XwOVPVUlsWcLLpFjySK7DYJv4+WF0v+3OKzYKl878SsLctHlRvEYxzFFWJyOTfPo67EYX1SUE0DGWxRQqt9zbV63OiVFjjsiipgl03qd+wQRCHjjvtxHO71hILAam5G1WrSNNofwBlNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAyKvgbvj/7edx/H9niI7S0lydmHwEW8spxyBQSDtXPo97qXHLeHuTNjQhjHF3ltFPH000E0xHSP8V8nUEw0SLiB9XATMpIwiN+TsxRm6Kb8FeUqqP5HvUrESiFvleeUr8zUGGBWpceXm1EQAjBaayocMB7PfA+BJHATheGVIH4j8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

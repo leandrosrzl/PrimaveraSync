@@ -1,0 +1,6 @@
+Data/Hora: 02/10/2018 09:16:38
+Mensagem: I/O error for file "E:\SERVER\X22\BASE\SJOBS.FDB"
+Error while trying to open file
+
+--------------------------------------------------------
+
